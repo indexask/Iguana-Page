@@ -1,0 +1,79 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+header{
+    text-align: center;
+}
+
+header h1{
+    background-color: black;
+    font-size: 3rem;
+    padding: 1rem;
+}
+section{
+    width: 60%;
+    display: flow-root;
+    margin: auto;
+    padding-bottom: 60px;
+}
+
+section img{
+    width: 30rem;
+    margin: auto;
+    float: right;
+    padding-left: 40px;
+}
+section p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    width: 80rem;
+    margin: auto;
+    padding-top: 5rem;
+    font-size: 1.5rem;
+}
+.fondoiguana{
+    background-image: url(../img/bg-header.jpg);
+    height: 64rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.caracter{
+    padding-top: 1.5rem;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(30, 26, 19);
+}
+article div p{
+    display: inline-block;
+    width: 33%;
+    padding-top: 3px;
+    padding-bottom: 70px;
+    font-size: 30px;
+}
+article div i{
+    display: inline-block;
+    width: 33%;
+    padding-top: 70px;
+    font-size: 50px;
+}
+article div h1{
+    font-size: 40px;
+}
+.fotos{
+    padding-left: 400px;
+    height: 400px;
+}
+article img{
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 20%;
+    height:250px;
+}
+.visita{
+    padding: 20px;
+    text-align: center;
+    background-color:rgb(30, 26, 19) ;
+}
